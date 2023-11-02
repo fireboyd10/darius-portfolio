@@ -10,7 +10,7 @@ export default function About(){
     const friends = 20;
     const work = 30;
     return (
-        <section id="About"  className="about-block">
+        <section id="about"  className="about-block">
             <Container fluid>
                 <div className="title-holder">
                     <h2>About us</h2>
