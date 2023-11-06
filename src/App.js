@@ -1,20 +1,21 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import MainComponent from './Components/MainComponent';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Home} from './pages/Home';
+import {Contact} from './pages/Contact';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Hero from './Components/Hero';
-import About from './Components/About';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <MainComponent/>
-      <About/>
-      <Footer/>
-    </div>
+    <Router>
+    <Header/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    <Footer/>
+  </Router>
   );
 }
 
