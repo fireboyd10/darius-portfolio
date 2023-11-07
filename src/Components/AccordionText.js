@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function AccordionText() {
     return(
-    <Accordion defaultActiveKey="0">
+    <Accordion defaultActiveKey="">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Read more</Accordion.Header>
         <Accordion.Body className="text-center text-muted" style={{ fontStyle: 'italic' }}>
