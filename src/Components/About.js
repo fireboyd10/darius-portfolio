@@ -4,14 +4,37 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Overlay from 'react-bootstrap/Overlay';
+import Button from 'react-bootstrap/Button';
+import { useState, useRef } from 'react';
+  
 
 export default function About(){
     const family = 50;
     const friends = 20;
     const work = 30;
+    const [show, setShow] = useState(false);
+    const target = useRef(null);
+
+    const aboutRef = useRef(null);
+  
+    const scrollToAbout = () => {
+      aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+
     return (
         <section id="about"  className="about-block">
-            <Container fluid>
+            <Button className="first_button_about" onClick={scrollToAbout}>About us & Contact</Button>
+
+            <Container className="images_about">
+                <Row>
+                    <Col><img src="https://picsum.photos/500/300?image=4" alt="imagine 1"/></Col>
+                    <Col><img src="https://picsum.photos/500/300?image=22" alt="imagine 2"/></Col>
+                </Row>
+            </Container>
+
+            <Container fluid ref={aboutRef}>
                 <div className="title-holder">
                     <h2>About us</h2>
                 </div>
@@ -37,6 +60,35 @@ export default function About(){
                         </Col>
                     </Row>  
             </Container>
+            
+        <Button variant="danger" ref={target} onClick={() => setShow(!show)}>
+        Click me to see
+        </Button>
+        <Overlay target={target.current} show={show} placement="right">
+            {({
+            placement: _placement,
+            arrowProps: _arrowProps,
+            show: _show,
+            popper: _popper,
+            hasDoneInitialMeasure: _hasDoneInitialMeasure,
+            ...props
+            }) => (
+            <div
+                {...props}
+                style={{
+                position: 'absolute',
+                backgroundColor: 'rgba(255, 100, 100, 0.85)',
+                padding: '2px 10px',
+                color: 'white',
+                borderRadius: 3,
+                ...props.style,
+                }}
+            >
+                Hello, world!
+            </div>
+            )}
+        </Overlay>
+
         </section>
     )
 

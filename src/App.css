@@ -131,3 +131,12 @@ input, textarea {
 .blue-button:hover {
   background-color: #0056b3;
 }
+
+.images_about{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.first_button_about{
+  margin-top: 20px;
+}
