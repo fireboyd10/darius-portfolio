@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer(){
     const [showTopBtn, setShowTopBtn] = useState(false);
@@ -28,7 +28,7 @@ export default function Footer(){
     return(
         <footer class="py-5 my-5 bg-dark text-white">
             <Container fluid className="px-4">
-                <div className="copyright"> Copyright &copy;2023 Darius </div>
+                <div className="copyright"> Copyright &copy;2025 Darius </div>
                 <div className="socials"> 
                     <ul className="social-list">
                         <li>
@@ -39,6 +39,11 @@ export default function Footer(){
                         <li>
                             <a href="https://www.facebook.com/darius.aniculaesei">
                             <FontAwesomeIcon icon={faFacebookF} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/">
+                            <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </li>
                     </ul>

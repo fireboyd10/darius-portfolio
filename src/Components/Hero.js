@@ -6,23 +6,23 @@ var heroData = [
     {
       id: 1,
       image: require('./images/image1.jpg'),
-      title: 'The perfect design for your website',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-      link: 'https://www.google.com'
+      title: 'Welcome!',
+      description: 'My name is Darius Aniculaesei and I am a third year Computer Science student at TU Dublin',
+      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
     },
     {
       id: 2,
       image: require('./images/image2.jpg'),
-      title: 'Start Your Future',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-      link: 'https://www.facebook.com'
+      title: 'This is my website!',
+      description: 'This website is built using React and Bootstrap. It showcases my projects, skills, and experiences in the field of computer science, as well as my CV and contact information.',
+      link: ''
     },
     {
       id: 3,
       image: require('./images/image3.jpg'),
-      title: 'Enjoy the Difference',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-      link: 'https://www.twitter.com'
+      title: 'Feel free to explore!',
+      description: 'You can find more about me and my work in the sections below. If you have any questions or would like to get in touch, please do not hesitate to contact me.',
+      link: 'https://www.instagram.com/darius_anc/'
     }
  ]
 
