@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/darius-portfolio/static/css/main.543b3c63.css",
-    "main.js": "/darius-portfolio/static/js/main.2ef7653c.js",
+    "main.js": "/darius-portfolio/static/js/main.2016f679.js",
     "static/js/787.856a2c82.chunk.js": "/darius-portfolio/static/js/787.856a2c82.chunk.js",
+    "static/media/bg3.webp": "/darius-portfolio/static/media/bg3.12985a7ef24a3b3f3fa0.webp",
     "static/media/my-song.m4a": "/darius-portfolio/static/media/my-song.2aa71e2f1fc24f6a8576.m4a",
-    "static/media/me1.JPEG": "/darius-portfolio/static/media/me1.25fa8d3b9526228dea01.JPEG",
-    "static/media/bg3.jpg": "/darius-portfolio/static/media/bg3.008e35e75ceaee50b0df.jpg",
-    "static/media/picture1.jpeg": "/darius-portfolio/static/media/picture1.c0aab348e958735ebb6a.jpeg",
-    "static/media/bg1.png": "/darius-portfolio/static/media/bg1.006c85f94b43b98c4716.png",
-    "static/media/bg2.png": "/darius-portfolio/static/media/bg2.bd563a433ce714eafa25.png",
-    "static/media/synergetic.png": "/darius-portfolio/static/media/synergetic.759aed30ce305079769a.png",
-    "static/media/irisphera.png": "/darius-portfolio/static/media/irisphera.6d8a4afea3f0af4bc649.png",
-    "static/media/picture2.jpeg": "/darius-portfolio/static/media/picture2.3b0bb52b565534ad8729.jpeg",
-    "static/media/selectmeat.png": "/darius-portfolio/static/media/selectmeat.14256a2c06fb348537e4.png",
-    "static/media/darius_logo.png": "/darius-portfolio/static/media/darius_logo.ebff95b26014cb7938f5.png",
+    "static/media/picture1.webp": "/darius-portfolio/static/media/picture1.73e057833e59a84b4a31.webp",
+    "static/media/me1.webp": "/darius-portfolio/static/media/me1.03c41ebbffaa15379ce6.webp",
+    "static/media/picture2.webp": "/darius-portfolio/static/media/picture2.daee00d801de5ad35b9e.webp",
+    "static/media/synergetic.webp": "/darius-portfolio/static/media/synergetic.6bf4610729d888f3a67a.webp",
+    "static/media/irisphera.webp": "/darius-portfolio/static/media/irisphera.2895ef0e65d26dab9b51.webp",
+    "static/media/selectmeat.webp": "/darius-portfolio/static/media/selectmeat.964f967e78601a960f3d.webp",
+    "static/media/bg1.webp": "/darius-portfolio/static/media/bg1.15e36583af537740f642.webp",
+    "static/media/bg2.webp": "/darius-portfolio/static/media/bg2.39c5974be74bbe79ba8a.webp",
+    "static/media/darius_logo.webp": "/darius-portfolio/static/media/darius_logo.212dd4b492684723a948.webp",
     "index.html": "/darius-portfolio/index.html",
     "main.543b3c63.css.map": "/darius-portfolio/static/css/main.543b3c63.css.map",
-    "main.2ef7653c.js.map": "/darius-portfolio/static/js/main.2ef7653c.js.map",
+    "main.2016f679.js.map": "/darius-portfolio/static/js/main.2016f679.js.map",
     "787.856a2c82.chunk.js.map": "/darius-portfolio/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.543b3c63.css",
-    "static/js/main.2ef7653c.js"
+    "static/js/main.2016f679.js"
   ]
 }
