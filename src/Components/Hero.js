@@ -5,24 +5,24 @@ import Carousel from 'react-bootstrap/Carousel';
 var heroData = [
     {
       id: 1,
-      image: require('./images/image1.jpg'),
+      image: require('./images/bg3.jpg'),
       title: 'Welcome!',
-      description: 'My name is Darius Aniculaesei and I am a third year Computer Science student at TU Dublin',
+      description: '',
       link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
     },
     {
       id: 2,
-      image: require('./images/image2.jpg'),
+      image: require('./images/bg2.png'),
       title: 'This is my website!',
-      description: 'This website is built using React and Bootstrap. It showcases my projects, skills, and experiences in the field of computer science, as well as my CV and contact information.',
-      link: ''
+      description: 'built using React-Bootstrap and CSS. It showcases my projects, skills, and experiences in the field of computer science, as well as my CV and contact information',
+      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
     },
     {
       id: 3,
-      image: require('./images/image3.jpg'),
+      image: require('./images/bg1.png'),
       title: 'Feel free to explore!',
       description: 'You can find more about me and my work in the sections below. If you have any questions or would like to get in touch, please do not hesitate to contact me.',
-      link: 'https://www.instagram.com/darius_anc/'
+      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
     }
  ]
 
@@ -40,8 +40,8 @@ var heroData = [
               <Carousel.Caption>
                 <h3>{hero.title}</h3>
                 <p>{hero.description}</p>
-                <a className="btn btn-primary" href={hero.link}>
-                  Learn more
+                <a className="buttons" href={hero.link}>
+                  Let's Connect!
                 </a>
               </Carousel.Caption>
             </Carousel.Item>
