@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darius-portfolio/static/css/main.543b3c63.css",
-    "main.js": "/darius-portfolio/static/js/main.e51af749.js",
+    "main.js": "/darius-portfolio/static/js/main.0ac2388c.js",
     "static/js/787.856a2c82.chunk.js": "/darius-portfolio/static/js/787.856a2c82.chunk.js",
     "static/media/my-song.m4a": "/darius-portfolio/static/media/my-song.2aa71e2f1fc24f6a8576.m4a",
     "static/media/me1.JPEG": "/darius-portfolio/static/media/me1.25fa8d3b9526228dea01.JPEG",
@@ -13,11 +13,11 @@
     "static/media/darius_logo.png": "/darius-portfolio/static/media/darius_logo.ebff95b26014cb7938f5.png",
     "index.html": "/darius-portfolio/index.html",
     "main.543b3c63.css.map": "/darius-portfolio/static/css/main.543b3c63.css.map",
-    "main.e51af749.js.map": "/darius-portfolio/static/js/main.e51af749.js.map",
+    "main.0ac2388c.js.map": "/darius-portfolio/static/js/main.0ac2388c.js.map",
     "787.856a2c82.chunk.js.map": "/darius-portfolio/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.543b3c63.css",
-    "static/js/main.e51af749.js"
+    "static/js/main.0ac2388c.js"
   ]
 }
