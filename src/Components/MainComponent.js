@@ -6,6 +6,9 @@ import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import myImage from "../Components/images/me1.JPEG";
+import IrispheraImage from "../Components/images/irisphera.png";
+import SynergeticImage from "../Components/images/synergetic.png";
+import SelectMeatImage from "../Components/images/selectmeat.png";
 
 export default function MainComponent() {
   return (
@@ -38,7 +41,7 @@ export default function MainComponent() {
         <Row className="text-center g-4">
           <Col md>
             <Card className="bg-transparent text-white border-1" style={{ minHeight: "100%" }}>
-              <Card.Img variant="top" src="https://picsum.photos/1000/400?image=43" />
+              <Card.Img variant="top" src={IrispheraImage} />
               <Card.Body>
                 <Card.Title className="mb-2">Irisphera — Virtual Stylist</Card.Title>
                 <Card.Text className="mb-3">
@@ -57,7 +60,7 @@ export default function MainComponent() {
 
           <Col md>
             <Card className="bg-transparent text-white border-1" style={{ minHeight: "100%" }}>
-              <Card.Img variant="top" src="https://picsum.photos/1000/400?image=60" />
+              <Card.Img variant="top" src={SelectMeatImage} />
               <Card.Body>
                 <Card.Title className="mb-2">Meat Ordering Platform — Marketplace UI</Card.Title>
                 <Card.Text className="mb-3">
@@ -73,7 +76,7 @@ export default function MainComponent() {
 
           <Col md>
             <Card className="bg-transparent text-white border-1" style={{ minHeight: "100%" }}>
-              <Card.Img variant="top" src="https://picsum.photos/1000/400?image=274" />
+              <Card.Img variant="top" src={SynergeticImage} />
               <Card.Body>
                 <Card.Title className="mb-2">SynergeticMind — Membership Platform</Card.Title>
                 <Card.Text className="mb-3">
