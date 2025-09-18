@@ -10,7 +10,7 @@ export default function Header(){
     return(
     <Navbar expand="lg" className="navbar" variant="dark">
         <Container>
-        <Image src={require('./images/darius_logo.png')} alt="Logo" width="100" height="100" className="d-inline-block align-top" />
+        <Image src={require('./images/darius_logo.webp')} alt="Logo" width="100" height="100" className="d-inline-block align-top" />
         <Navbar.Brand> Online Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

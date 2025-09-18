@@ -3,8 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
-import Picture1 from "./images/picture1.jpeg";
-import Picture2 from "./images/picture2.jpeg";
+import Picture1 from "./images/picture1.webp";
+import Picture2 from "./images/picture2.webp";
 
 export default function About() {
   return (

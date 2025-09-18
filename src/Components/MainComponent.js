@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
-import myImage from "../Components/images/me1.JPEG";
-import IrispheraImage from "../Components/images/irisphera.png";
-import SynergeticImage from "../Components/images/synergetic.png";
-import SelectMeatImage from "../Components/images/selectmeat.png";
+import myImage from "../Components/images/me1.webp";
+import IrispheraImage from "../Components/images/irisphera.webp";
+import SynergeticImage from "../Components/images/synergetic.webp";
+import SelectMeatImage from "../Components/images/selectmeat.webp";
 
 export default function MainComponent() {
   return (
