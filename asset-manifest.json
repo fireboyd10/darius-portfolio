@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/darius-portfolio/static/css/main.543b3c63.css",
-    "main.js": "/darius-portfolio/static/js/main.755fb9fa.js",
-    "static/js/787.856a2c82.chunk.js": "/darius-portfolio/static/js/787.856a2c82.chunk.js",
-    "static/media/my-song.m4a": "/darius-portfolio/static/media/my-song.2aa71e2f1fc24f6a8576.m4a",
-    "static/media/me1.JPEG": "/darius-portfolio/static/media/me1.25fa8d3b9526228dea01.JPEG",
-    "static/media/bg3.jpg": "/darius-portfolio/static/media/bg3.008e35e75ceaee50b0df.jpg",
-    "static/media/picture1.jpeg": "/darius-portfolio/static/media/picture1.c0aab348e958735ebb6a.jpeg",
-    "static/media/bg1.png": "/darius-portfolio/static/media/bg1.006c85f94b43b98c4716.png",
-    "static/media/bg2.png": "/darius-portfolio/static/media/bg2.bd563a433ce714eafa25.png",
-    "static/media/picture2.jpeg": "/darius-portfolio/static/media/picture2.3b0bb52b565534ad8729.jpeg",
-    "static/media/darius_logo.png": "/darius-portfolio/static/media/darius_logo.ebff95b26014cb7938f5.png",
-    "index.html": "/darius-portfolio/index.html",
-    "main.543b3c63.css.map": "/darius-portfolio/static/css/main.543b3c63.css.map",
-    "main.755fb9fa.js.map": "/darius-portfolio/static/js/main.755fb9fa.js.map",
-    "787.856a2c82.chunk.js.map": "/darius-portfolio/static/js/787.856a2c82.chunk.js.map"
+    "main.css": "/static/css/main.543b3c63.css",
+    "main.js": "/static/js/main.75251183.js",
+    "static/js/787.856a2c82.chunk.js": "/static/js/787.856a2c82.chunk.js",
+    "static/media/my-song.m4a": "/static/media/my-song.2aa71e2f1fc24f6a8576.m4a",
+    "static/media/me1.JPEG": "/static/media/me1.25fa8d3b9526228dea01.JPEG",
+    "static/media/bg3.jpg": "/static/media/bg3.008e35e75ceaee50b0df.jpg",
+    "static/media/picture1.jpeg": "/static/media/picture1.c0aab348e958735ebb6a.jpeg",
+    "static/media/bg1.png": "/static/media/bg1.006c85f94b43b98c4716.png",
+    "static/media/bg2.png": "/static/media/bg2.bd563a433ce714eafa25.png",
+    "static/media/picture2.jpeg": "/static/media/picture2.3b0bb52b565534ad8729.jpeg",
+    "static/media/darius_logo.png": "/static/media/darius_logo.ebff95b26014cb7938f5.png",
+    "index.html": "/index.html",
+    "main.543b3c63.css.map": "/static/css/main.543b3c63.css.map",
+    "main.75251183.js.map": "/static/js/main.75251183.js.map",
+    "787.856a2c82.chunk.js.map": "/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.543b3c63.css",
-    "static/js/main.755fb9fa.js"
+    "static/js/main.75251183.js"
   ]
 }
