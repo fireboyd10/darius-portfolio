@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Welcome to my React.js Presentation project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses React.js and Bootstrap CSS to create a fully functioning web application.
 
 ## Available Scripts
 
