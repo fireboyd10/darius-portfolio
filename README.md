@@ -1,4 +1,4 @@
-Welcome to my React.js Presentation project!
+Welcome to my Online Portfolio!
 
 This project uses React.js and Bootstrap CSS to create a fully functioning web application.
 
