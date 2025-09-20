@@ -325,3 +325,56 @@ img.w-100.h-100.object-fit-cover {
 .pictures {
   max-height: 500px;
 }
+
+.fun-page {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.joke-section {
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin: 60px auto;
+}
+
+.joke-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.joke-section button {
+  background: #216563;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.joke-section button:hover:not(:disabled) {
+  background-color: #1a4f4d;
+  transform: scale(1.05);
+}
+
+.joke-section button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+.joke-text {
+  margin-top: 14px;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+  

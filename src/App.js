@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Contact } from './pages/Contact';
+import { Fun } from './pages/Fun';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -14,7 +15,8 @@ function App() {
         <Route index element={<Home />} />         
         <Route path="/" element={<Home />} />      
         <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<Home />} />       
+        <Route path="*" element={<Home />} />   
+        <Route path="fun" element={<Fun />} />    
       </Routes>
       <Footer />
     </Router>
