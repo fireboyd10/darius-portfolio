@@ -95,7 +95,7 @@ export default function MainComponent() {
         </Row>
 
         <Row className="mt-5 g-4">
-          <Col md>
+          {/* <Col md>
             <Card className="bg-transparent text-white border-1 h-100">
               <Card.Body>
                 <Card.Title>Intern — CCIRI (RO-IL Chamber of Commerce)</Card.Title>
@@ -105,7 +105,7 @@ export default function MainComponent() {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           <Col md>
             <Card className="bg-transparent text-white border-1 h-100">
               <Card.Body>
@@ -122,7 +122,7 @@ export default function MainComponent() {
               <Card.Body>
                 <Card.Title>Intern — Trady 2000</Card.Title>
                 <Card.Text className="mb-0">
-                  Designed DB solutions, improved website, configured PCs, and updated security. 09–10/2022.
+                  Designed DB solutions, improved website, configured PCs. 09–10/2022.
                 </Card.Text>
               </Card.Body>
             </Card>
