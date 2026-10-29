@@ -17,7 +17,7 @@ export default function Header(){
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/">HOME</Nav.Link>
               <Nav.Link as={Link} to="/contact">MORE</Nav.Link>
-              <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light ms-3">
+              <a href={`${process.env.PUBLIC_URL}/CV.pdf`} target="_blank" rel="noopener noreferrer" className="btn btn-outline-light ms-3">
                 Download CV
               </a>
 

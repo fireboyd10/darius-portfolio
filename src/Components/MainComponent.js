@@ -26,6 +26,34 @@ export default function MainComponent() {
               <strong>React</strong> and <strong>Next.js</strong>. I love turning product ideas into fast, usable
               interfaces—and when I’m not coding, I produce House music and ship creative projects.
             </p>
+            <p className="text-white">
+              I recently completed a seven-month internship with <strong>SAP in Dublin</strong>, contributing
+              to SAP Analytics Cloud and gaining hands-on experience in enterprise software development.
+            </p>
+          </Col>
+        </Row>
+
+        <Row className="mb-4">
+          <Col>
+            <section aria-labelledby="latest-experience-heading">
+              <h2 id="latest-experience-heading" className="h4 text-white mb-3">Latest Experience</h2>
+              <Card className="experience-card bg-transparent text-white">
+                <Card.Body className="p-3 p-md-4">
+                  <Card.Title as="h3" className="h4">Intern — SAP</Card.Title>
+                  <p className="mb-1">Feb 2026 – Aug 2026 · 7 months · Full-time</p>
+                  <p className="mb-3">Dublin, County Dublin, Ireland · Hybrid</p>
+                  <ul className="mb-3 ps-3">
+                    <li>Contributed to the development and enhancement of Composable Service, part of SAP Analytics Cloud (SAC).</li>
+                    <li>Developed, tested, and delivered new functionality and product updates within an international Agile engineering team.</li>
+                    <li>Gained hands-on experience with SAP HANA, DBeaver, GitHub, Jenkins, and CI/CD workflows.</li>
+                    <li>Worked across backend development, data environments, testing, and debugging within an enterprise-scale ecosystem.</li>
+                    <li>Developed Hermes as a final internship project and delivered a live demo and presentation to SAP managers and teams.</li>
+                    <li>Participated in SAP D-COM in Galway, gaining exposure to SAP’s latest technologies, products, and developments across the wider SAP ecosystem.</li>
+                  </ul>
+                  <p className="mb-0"><strong>Skills:</strong> Java · Cloud Computing · SAP HANA · DBeaver · GitHub · Jenkins · CI/CD</p>
+                </Card.Body>
+              </Card>
+            </section>
           </Col>
         </Row>
 
@@ -154,7 +182,8 @@ export default function MainComponent() {
                 </Card.Text>
                 <Card.Title className="mt-3">Digital Skills</Card.Title>
                 <Card.Text className="mb-0">
-                  React, Next.js, HTML/CSS/JS, APIs, WP (CSS/PHP), C/C++/C#, Microsoft 365; ECDL: Digital Marketing,
+                  React, Next.js, HTML/CSS/JS, APIs, WP (CSS/PHP), Java, C/C++/C#, SAP HANA, DBeaver, GitHub,
+                  Jenkins, CI/CD, Cloud Computing, Microsoft 365; ECDL: Digital Marketing,
                   IT Security, BAC Profile; Music Production.
                 </Card.Text>
               </Card.Body>

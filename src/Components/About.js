@@ -37,6 +37,9 @@ export default function About() {
                   <div className="skill-card">JavaScript (ES6+)</div>
                   <div className="skill-card">Python</div>
                   <div className="skill-card">Java (OOP)</div>
+                  <div className="skill-card">SAP HANA / DBeaver</div>
+                  <div className="skill-card">GitHub / Jenkins / CI/CD</div>
+                  <div className="skill-card">Cloud Computing</div>
                   <div className="skill-card">C / C++ / C#</div>
                   <div className="skill-card">WordPress + CSS/PHP</div>
                   <div className="skill-card">REST APIs</div>

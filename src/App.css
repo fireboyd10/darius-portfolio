@@ -193,6 +193,14 @@ input:focus, textarea:focus {
   background-color: #223e5c;
 }
 
+.card.experience-card {
+  border-top: 3px solid #32a59e;
+}
+
+.experience-card li + li {
+  margin-top: 0.5rem;
+}
+
 .buttons {
   background-color: #216563;
   color: #ffffff;
