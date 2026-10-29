@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/darius-portfolio/static/css/main.543b3c63.css",
-    "main.js": "/darius-portfolio/static/js/main.706a29e2.js",
+    "main.css": "/darius-portfolio/static/css/main.1cb35f6d.css",
+    "main.js": "/darius-portfolio/static/js/main.7e1e90b5.js",
     "static/js/787.856a2c82.chunk.js": "/darius-portfolio/static/js/787.856a2c82.chunk.js",
     "static/media/bg3.webp": "/darius-portfolio/static/media/bg3.12985a7ef24a3b3f3fa0.webp",
     "static/media/my-song.m4a": "/darius-portfolio/static/media/my-song.2aa71e2f1fc24f6a8576.m4a",
@@ -15,12 +15,12 @@
     "static/media/bg2.webp": "/darius-portfolio/static/media/bg2.39c5974be74bbe79ba8a.webp",
     "static/media/darius_logo.webp": "/darius-portfolio/static/media/darius_logo.212dd4b492684723a948.webp",
     "index.html": "/darius-portfolio/index.html",
-    "main.543b3c63.css.map": "/darius-portfolio/static/css/main.543b3c63.css.map",
-    "main.706a29e2.js.map": "/darius-portfolio/static/js/main.706a29e2.js.map",
+    "main.1cb35f6d.css.map": "/darius-portfolio/static/css/main.1cb35f6d.css.map",
+    "main.7e1e90b5.js.map": "/darius-portfolio/static/js/main.7e1e90b5.js.map",
     "787.856a2c82.chunk.js.map": "/darius-portfolio/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.543b3c63.css",
-    "static/js/main.706a29e2.js"
+    "static/css/main.1cb35f6d.css",
+    "static/js/main.7e1e90b5.js"
   ]
 }
