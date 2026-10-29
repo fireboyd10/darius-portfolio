@@ -1,53 +1,31 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
+import { useLanguage } from "../LanguageContext";
+import translations from "../translations";
 
-var heroData = [
-    {
-      id: 1,
-      image: require('./images/bg3.webp'),
-      title: 'Welcome!',
-      description: '',  
-      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
-    },
-    {
-      id: 2,
-      image: require('./images/bg2.webp'),
-      title: 'This is my website!',
-      description: '*built using React-Bootstrap and CSS. It showcases my projects, skills, and experiences in the field of computer science, as well as my CV and contact information',
-      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
-    },
-    {
-      id: 3,
-      image: require('./images/bg1.webp'),
-      title: 'Feel free to explore!',
-      description: 'You can find more about me and my work in the sections below. If you have any questions or would like to get in touch, please do not hesitate to contact me.',
-      link: 'https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/'
-    }
- ]
+const heroImages = [require("./images/bg3.webp"), require("./images/bg2.webp"), require("./images/bg1.webp")];
 
-  export default function Hero() {
-    return (
-      <section>
-        <Carousel className="custom-carousel">
-          {heroData.map((hero) => (
-            <Carousel.Item key={hero.id}>
-              <img
-                src={hero.image}
-                className="d-block w-100"
-                alt={"Slide" + hero.id}
-              />
-              <Carousel.Caption>
-                <h3>{hero.title}</h3>
-                <p>{hero.description}</p>
-                <a className="buttons" href={hero.link}>
-                  Let's Connect!
-                </a>
-              </Carousel.Caption>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      </section>
-    );
-  }
-  
+export default function Hero() {
+  const { language } = useLanguage();
+  const copy = translations[language].hero;
+
+  return (
+    <section aria-label={copy.label}>
+      <Carousel className="custom-carousel" prevLabel={copy.previous} nextLabel={copy.next} indicatorLabels={copy.indicators}>
+        {copy.slides.map((hero, index) => (
+          <Carousel.Item key={index}>
+            <img src={heroImages[index]} className="d-block w-100" alt="" />
+            <Carousel.Caption>
+              <h3>{hero.title}</h3>
+              <p>{hero.description}</p>
+              <a className="buttons" href="https://www.linkedin.com/in/darius-stefan-aniculaesei-437896282/">
+                {copy.connect}
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </section>
+  );
+}

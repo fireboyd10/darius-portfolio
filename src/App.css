@@ -39,9 +39,39 @@
   margin: 0 0 0 5px;
 }
 
-.me-auto {
-  margin-left: 60%;
-  margin-right: auto;
+.portfolio-nav {
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+}
+
+.navbar .portfolio-nav .nav-link {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+}
+
+.language-control {
+  width: 7.5rem;
+}
+
+.language-control .language-select {
+  min-height: 38px;
+}
+
+.navbar .cv-download .dropdown-item {
+  margin: 0;
+  color: #223e5c;
+}
+
+.navbar .cv-download .dropdown-item:hover,
+.navbar .cv-download .dropdown-item:focus {
+  color: #223e5c;
+  background-color: #e7f3f2;
+}
+
+@media (min-width: 992px) {
+  .portfolio-nav {
+    padding-top: 0;
+  }
 }
 
 .progress-block h4 {

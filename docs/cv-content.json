@@ -1,0 +1,147 @@
+{
+  "en": {
+    "sap": {
+      "title": "Intern: SAP",
+      "dates": "[ Feb 2026 - Aug 2026 ]",
+      "location": "Dublin, County Dublin, Ireland | Full-time | Hybrid | 7 months",
+      "bullets": [
+        "Enhanced Composable Service in SAP Analytics Cloud (SAC), developing, testing and delivering new features and product updates with an international Agile engineering team.",
+        "Worked across backend development, cloud and data environments, testing and debugging using Java, SAP HANA, DBeaver, GitHub, Jenkins and CI/CD workflows.",
+        "Developed Hermes as my final internship project and delivered a live demo and presentation to SAP managers and teams.",
+        "Attended SAP D-COM in Galway, gaining exposure to SAP's latest technologies, products and wider ecosystem."
+      ]
+    }
+  },
+  "ro": {
+    "contact": {
+      "phone": "Telefon",
+      "birth": "Data nașterii",
+      "email": "Email",
+      "gender": "Sex",
+      "male": "Masculin",
+      "address": "Adresă",
+      "addressValue": "22 The Alders, Monkstown, Co. Dublin, A94 E266, Irlanda"
+    },
+    "workHeading": "EXPERIENȚĂ PROFESIONALĂ",
+    "sap": {
+      "title": "Stagiar: SAP",
+      "dates": "[ feb. 2026 - aug. 2026 ]",
+      "location": "Dublin, Comitatul Dublin, Irlanda | Normă întreagă | Hibrid | 7 luni",
+      "bullets": [
+        "Am contribuit la dezvoltarea și îmbunătățirea Composable Service din SAP Analytics Cloud (SAC), dezvoltând, testând și livrând funcționalități noi și actualizări de produs într-o echipă internațională Agile.",
+        "Am lucrat la backend, în medii cloud și de date, la testare și depanare, folosind Java, SAP HANA, DBeaver, GitHub, Jenkins și fluxuri CI/CD.",
+        "Am dezvoltat Hermes ca proiect final de stagiu și am susținut o demonstrație live și o prezentare în fața managerilor și echipelor SAP.",
+        "Am participat la SAP D-COM în Galway, unde am descoperit cele mai noi tehnologii și produse din ecosistemul SAP."
+      ]
+    },
+    "freelanceHeading": "ACTIVITATE INDEPENDENTĂ",
+    "freelanceLocation": "Oraș: București | Țară: România",
+    "projects": [
+      {
+        "title": "Dezvoltator Front-End pentru Irisphera",
+        "suffix": " (start-up românesc)",
+        "bullets": [
+          "Am creat vizualizări interactive ale manechinelor (ochi, măsurători, culori etc.), ecranul de încărcare și meniul de setări în Next.js, React și Tailwind CSS.",
+          "Irisphera oferă un stilist personal «de buzunar», care ajută utilizatorii să aleagă haine și accesorii potrivite."
+        ],
+        "website": "https://irisphera.com"
+      },
+      {
+        "title": "Website WordPress cu abonamente",
+        "bullets": [
+          "Am dezvoltat site-ul de la zero, cu CSS/PHP personalizat, cursuri video cu plată și conținut descărcabil."
+        ],
+        "website": "https://synergeticmind.ro"
+      },
+      {
+        "title": "Dezvoltator Front-End pentru o platformă de comenzi de carne",
+        "bullets": [
+          "Am creat interfața în Next.js/React și am integrat API-uri pentru date dinamice despre produse (prețuri, descrieri, disponibilitate, clienți)."
+        ]
+      },
+      {
+        "title": "Portofoliu online",
+        "suffix": " creat în React.js și Bootstrap:",
+        "inlineWebsite": "https://fireboyd10.github.io/darius-portfolio/"
+      },
+      {
+        "title": "Producție muzicală:",
+        "inlineWebsite": "https://www.youtube.com/@darius_anc"
+      }
+    ],
+    "internshipsHeading": "STAGII DE PRACTICĂ",
+    "internships": [
+      {
+        "title": "IStyle Retail SRL - Apple Premium Reseller CEE",
+        "dates": "[ 20/07/2022 - 08/08/2022 ]",
+        "location": "Oraș: București | Țară: România",
+        "description": "Am oferit asistență clienților în limba engleză și la efectuarea tranzacțiilor; am dobândit cunoștințe tehnice despre dispozitivele Apple și am ajutat la reparații."
+      },
+      {
+        "title": "Trady 2000 SRL",
+        "dates": "[ 12/09/2022 - 10/10/2022 ]",
+        "location": "Țară: România",
+        "description": "Am îmbunătățit website-ul, am configurat calculatoare și am actualizat măsurile de securitate."
+      }
+    ],
+    "educationHeading": "EDUCAȚIE",
+    "university": {
+      "degree": "Studii de licență în Informatică",
+      "name": "Technological University Dublin",
+      "dates": "[ 09/2023 - 06/2027 ]",
+      "location": "Oraș: Dublin | Țară: Irlanda | Website:",
+      "website": "https://www.tudublin.ie/",
+      "programmingLabel": "Limbaje de programare:",
+      "programming": "JavaScript, HTML, CSS, C, C++, Java, Python, React.js, Next.js",
+      "subjectsHeading": "Discipline studiate:",
+      "subjects": [
+        {
+          "title": "Sisteme de operare:",
+          "text": "Am studiat procesele și programarea cu mai multe fire de execuție în C."
+        },
+        {
+          "title": "Dezvoltare web:",
+          "text": "Am studiat HTML/CSS, JavaScript și Bootstrap."
+        },
+        {
+          "title": "Programare orientată pe obiecte:",
+          "text": "Am aprofundat conceptele OOP prin proiecte practice în Java și Python."
+        },
+        {
+          "title": "Comunicații de date:",
+          "text": "Am studiat modelul OSI, adresarea IP și MAC, subnetarea și măștile de rețea, topologiile LAN, mediile de transmisie, tipurile de trafic (unicast/multicast/broadcast) și protocoalele de detectare și evitare a coliziunilor."
+        },
+        {
+          "title": "Baze de date:",
+          "text": "Am lucrat cu MySQL și PostgreSQL, configurând baze de date online și conectându-le la proiecte HTML/CSS/JavaScript locale, cu găzduire gratuită și instrumente de server local precum XAMPP."
+        },
+        {
+          "title": "Inginerie software:",
+          "text": "Am studiat principiile dezvoltării software (SDLC, cerințe, modelare UML, testare) și am exersat programarea în OCL (Object Constraint Language)."
+        },
+        {
+          "title": "Microprocesoare:",
+          "text": "Am studiat arhitectura microprocesoarelor, programarea în limbaj de asamblare, seturile de instrucțiuni, organizarea memoriei, interfețele de intrare/ieșire și aplicațiile sistemelor încorporate."
+        }
+      ]
+    },
+    "school": {
+      "degree": "Diplomă de bacalaureat",
+      "name": "Complexul Educațional Laude-Reut",
+      "dates": "[ 09/2019 - 07/2023 ]",
+      "location": "Oraș: București | Țară: România | Profil: Matematică-Informatică (bilingv engleză)",
+      "subjects": "Matematică, Informatică, Limba și literatura română, Limba germană /FIDES B2 (discipline de bacalaureat)"
+    },
+    "languagesLabel": "Limbi cunoscute:",
+    "languages": "Română (limbă maternă) | Engleză (C2) | Germană (C1) | Franceză (B2)",
+    "activitiesHeading": "Activități extracurriculare",
+    "activities": [
+      "Vicecampion mondial la karate (WSKF 2018, Dublin), centură neagră 2 DAN. Experiență în disciplină, concentrare și îndrumarea sportivilor mai tineri.",
+      "Scufundări (PADI Open Water Diver). Reziliență și adaptabilitate în medii dificile.",
+      "Model United Nations (președinte de comisie și delegat). Lucru în echipă, vorbit în public și colaborare internațională.",
+      "Club de robotică (FIRST Tech Challenge, sezonul 6). Experiență practică în construirea și testarea prototipurilor în echipă.",
+      "LAMDA Level 2 Award in Performance (Grade 5, Distinction). Abilități de comunicare și prezentare în limba engleză.",
+      "Voluntariat la Art Society, FEP IC și Spitalul de Copii."
+    ]
+  }
+}
